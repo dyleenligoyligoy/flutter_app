@@ -1,9 +1,6 @@
-class Computer {
-  String brand;
-  int year;
+import 'car.dart';
 
-  Computer(this.brand, this year);
-
-  print('This is a $brand computer made in $year.');
-}
+void main() {
+  var myCar = Car('Toyota', 'Hilux');
+  myCar.showInfo();
 }
